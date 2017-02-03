@@ -13,16 +13,17 @@
       android:layout_height="match_parent"
       android:layout_alignParentTop="true"
       android:layout_above="@+id/linlayText"
+      android:padding="@dimen/activity_margin"
       android:layout_margin="@dimen/activity_margin"
       tools:background="#FF0000"
    >
       <ImageView
          android:id="@+id/iv_onboarder_image"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
          android:adjustViewBounds="true"
          android:layout_gravity="bottom|center_horizontal"
-         android:scaleType="fitCenter"
+         android:scaleType="centerCrop"
          android:contentDescription="@null"
          tools:background="@drawable/die_for_music"
       />
