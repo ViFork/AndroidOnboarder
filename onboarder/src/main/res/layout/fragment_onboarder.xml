@@ -14,7 +14,7 @@
       android:layout_alignParentTop="true"
       android:layout_above="@+id/linlayText"
       android:padding="@dimen/activity_margin"
-      android:layout_margin="@dimen/activity_margin"
+      android:layout_margin="32dp"
       tools:background="#FF0000"
    >
       <ImageView
@@ -23,7 +23,7 @@
          android:layout_height="match_parent"
          android:adjustViewBounds="true"
          android:layout_gravity="bottom|center_horizontal"
-         android:scaleType="centerCrop"
+         android:scaleType="fitCenter"
          android:contentDescription="@null"
          tools:background="@drawable/die_for_music"
       />
