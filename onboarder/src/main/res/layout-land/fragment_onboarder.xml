@@ -5,15 +5,15 @@
    android:layout_width="match_parent"
    android:layout_height="match_parent"
    android:padding="@dimen/activity_margin"
+   android:id="@+id/iv_onboarder_container"
    tools:background="#00AA00"
->
+   >
    <FrameLayout
       android:layout_width="match_parent"
       android:layout_height="match_parent"
       android:layout_margin="@dimen/activity_margin"
       android:layout_weight="1"
-      tools:background="#FF0000"
-   >
+      tools:background="#FF0000">
       <ImageView
          android:id="@+id/iv_onboarder_image"
          android:layout_width="wrap_content"

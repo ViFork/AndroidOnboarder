@@ -89,6 +89,8 @@ public class OnboarderFragment extends Fragment
 		ivOnboarderImage = (ImageView) onboarderView.findViewById(R.id.iv_onboarder_image);
 		tvOnboarderTitle = (TextView) onboarderView.findViewById(R.id.tv_onboarder_title);
 		tvOnboarderDescription = (TextView) onboarderView.findViewById(R.id.tv_onboarder_description);
+		ViewGroup fragmentContainer = (ViewGroup) onboarderView.findViewById(R.id.iv_onboarder_container);
+		fragmentContainer.setBackground(AppCompatResources.getDrawable(getActivity(), R.drawable.geev_background));
 
 		if (onboarderTitle != null) {
 			tvOnboarderTitle.setText(onboarderTitle);
